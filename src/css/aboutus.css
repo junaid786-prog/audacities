@@ -1,0 +1,136 @@
+.about_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.about_info h4 {
+    font-size: 8vmin;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.about_info p {
+    font-size: 5vmin;
+}
+
+.about_info div {
+    width: 30vw;
+}
+
+.contact_raw {
+    display: flex;
+    flex-direction: column;
+    min-height: 150px;
+    justify-content: space-between;
+    font-weight: 300;
+}
+
+.p_bold {
+    font-weight: 600;
+}
+
+.address_section {
+    width: 100vw;
+    display: flex;
+    min-height: 100vh;
+}
+
+.address_section div {
+    width: 50vw;
+}
+
+.address_section_1 {
+    background-color: #AE81CE;
+}
+
+.address_section_1 img {
+    max-height: 70vh;
+}
+
+.address_section_2 {
+    background-color: #FE5E09;
+    font-size: 3vmin;
+}
+
+.address_section_2 div {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    /* align-items: center; */
+}
+
+.address_section_2 div div {
+    min-height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0px;
+    margin-top: 10px;
+}
+
+/* services */
+.services_bottom {
+    min-height: 250vh;
+    background-image: url("https://static.wixstatic.com/media/c837a6_495014ccaf824695b33dc1753eb85d20~mv2.jpg/v1/fill/w_1349,h_1057,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Untitled-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services_1 {
+    height: 500px;
+}
+
+.services_2 {
+    height: 900px;
+}
+
+.services_2 div div {
+    min-height: auto !important;
+}
+
+@media screen and (max-width: 600px) {
+    .about_info {
+        flex-direction: column;
+        padding: 40px 10px;
+    }
+
+    .about_info div {
+        width: 100%;
+    }
+
+    .contact_raw {
+        display: flex;
+        flex-direction: column;
+        min-height: 100px;
+        justify-content: space-between;
+        font-weight: 300;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .address_section {
+        flex-direction: column;
+    }
+
+    .address_section div {
+        width: 100%;
+    }
+
+    .address_section_2 div {
+        display: flex;
+        flex-direction: column;
+        width: 60vw;
+        padding: 20px;
+        /* align-items: center; */
+        /* font-weight: 500 */
+        font-size: 20px;
+    }
+
+    .services_2 div div {
+        font-size: 15px;
+    }
+}
